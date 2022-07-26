@@ -4,6 +4,9 @@
 Объяснение модели AMQP
 https://www.rabbitmq.com/tutorials/amqp-concepts.html
 
+![image](https://user-images.githubusercontent.com/62685269/180960640-1745a3bb-beec-49cd-8661-d9bf25b06111.png)
+
+
 Подтверждение (ack) отправляется подписчиком для информирования RabbitMQ о том, что полученное сообщение было обработано и RabbitMQ может его удалить.
 Можно принудительно включить автоматическое подтверждение сообщений, указав no_ack=True
 
